@@ -1,0 +1,92 @@
+2016-05-31 11:21:05,657 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'helloworld'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-05-31 11:21:05,671 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-05-31 11:21:05,687 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-05-31 11:21:05,772 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-05-31 11:21:05,772 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2016-05-31 11:21:05,780 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@1d8c559: startup date [Tue May 31 11:21:05 CDT 2016]; parent: org.mule.config.spring.MuleDomainContext@f5281c
+2016-05-31 11:21:06,089 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-05-31 11:21:06,429 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-05-31 11:21:06,704 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-05-31 11:21:06,706 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: helloworldFlow
+2016-05-31 11:21:06,706 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@10390b9
+2016-05-31 11:21:06,732 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: helloworldFlow.stage1
+2016-05-31 11:21:06,749 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\ws\repM04\M04\production\exampledomains\.mule\.\.mule\helloworld\queue-tx-log\tx1.log and C:\ws\repM04\M04\production\exampledomains\.mule\.\.mule\helloworld\queue-tx-log\tx2.log
+2016-05-31 11:21:06,775 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\ws\repM04\M04\production\exampledomains\.mule\.\.mule\helloworld\queue-xa-tx-log\tx1.log and C:\ws\repM04\M04\production\exampledomains\.mule\.\.mule\helloworld\queue-xa-tx-log\tx2.log
+2016-05-31 11:21:06,835 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\ws\repM04\M04\production\exampledomains\.mule\apps\helloworld\helloworld.xml'}]"
+2016-05-31 11:21:06,835 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\ws\repM04\M04\production\exampledomains\.mule\apps\helloworld\helloworld.xml'}]"
+2016-05-31 11:21:06,836 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'helloworld'                                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-05-31 11:21:06,837 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-05-31 11:21:06,838 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-05-31 11:21:06,847 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-05-31 11:21:06,850 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-05-31 11:21:06,851 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: helloworldFlow
+2016-05-31 11:21:06,852 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: helloworldFlow.stage1
+2016-05-31 11:21:06,892 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: helloworld                                            *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-05-31 11:32:48,523 [[helloworlddomain].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - HelloWorld
+2016-05-31 11:33:38,085 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'helloworld'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-05-31 11:33:38,098 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-05-31 11:33:38,114 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-05-31 11:33:38,191 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-05-31 11:33:38,191 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2016-05-31 11:33:38,200 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@8a2a6a: startup date [Tue May 31 11:33:38 CDT 2016]; parent: org.mule.config.spring.MuleDomainContext@f5281c
+2016-05-31 11:33:38,498 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-05-31 11:33:38,852 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-05-31 11:33:39,110 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-05-31 11:33:39,112 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: helloworldFlow
+2016-05-31 11:33:39,112 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1ad1178
+2016-05-31 11:33:39,134 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: helloworldFlow.stage1
+2016-05-31 11:33:39,150 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\ws\repM04\M04\production\exampledomains\.mule\.\.mule\helloworld\queue-tx-log\tx1.log and C:\ws\repM04\M04\production\exampledomains\.mule\.\.mule\helloworld\queue-tx-log\tx2.log
+2016-05-31 11:33:39,151 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\ws\repM04\M04\production\exampledomains\.mule\.\.mule\helloworld\queue-xa-tx-log\tx1.log and C:\ws\repM04\M04\production\exampledomains\.mule\.\.mule\helloworld\queue-xa-tx-log\tx2.log
+2016-05-31 11:33:39,208 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\ws\repM04\M04\production\exampledomains\.mule\apps\helloworld\helloworld.xml'}]"
+2016-05-31 11:33:39,208 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\ws\repM04\M04\production\exampledomains\.mule\apps\helloworld\helloworld.xml'}]"
+2016-05-31 11:33:39,209 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'helloworld'                                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-05-31 11:33:39,211 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-05-31 11:33:39,211 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-05-31 11:33:39,219 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-05-31 11:33:39,221 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-05-31 11:33:39,222 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: helloworldFlow
+2016-05-31 11:33:39,223 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: helloworldFlow.stage1
+2016-05-31 11:33:39,262 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: helloworld                                            *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-05-31 11:33:42,677 [[helloworlddomain].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - HelloWorld

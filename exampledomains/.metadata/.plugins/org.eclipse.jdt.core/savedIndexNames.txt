@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+C:\ws\repM04\M04\production\exampledomains\.metadata\.plugins\org.eclipse.jdt.core

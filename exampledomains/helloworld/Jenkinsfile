@@ -1,0 +1,23 @@
+node {
+   stage 'Stage 1 - check out source'
+   echo 'Check out Hello World'
+   checkout scm
+   
+   def v = version(readFile('pom.xml'))
+   if (v) {
+       echo "Building version ${v}"
+   }
+   
+   stage 'Stage 2 - build project'
+   echo 'Maven build'
+   def mvnHome = tool 'Maven-3.1.1'
+   sh "${mvnHome}/bin/mvn clean compile"
+
+  
+}
+
+@NonCPS
+def version(text) {
+    def matcher = text =~ '<version>(.+)</version>'
+    matcher ? matcher[0][1] : null
+}
